@@ -1,0 +1,50 @@
+# --- Python cache ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual environments ---
+venv/
+env/
+ENV/
+.venv/
+
+# --- System files ---
+.DS_Store
+Thumbs.db
+
+# --- IDE stuff ---
+.vscode/
+.idea/
+
+# --- Logs ---
+*.log
+
+# --- Environment variables / secrets ---
+.env
+*.env
+
+# --- Build / packaging ---
+build/
+dist/
+*.egg-info/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- YOLO training outputs (optional to ignore) ---
+runs/
+results/
+weights/
+
+# --- Model weights you do NOT want to track ---
+*.onnx
+*.engine
+*.trt
+
+# --- Large data files (optional) ---
+*.zip
+*.tar
+*.tar.gz
+datasets/
