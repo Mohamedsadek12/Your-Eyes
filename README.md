@@ -35,12 +35,12 @@ The project integrates multiple CV and audio technologies to deliver an accessib
 
 ## 🛠️ Used Tech Stack
 Languages:
-Python 3.10 (Core development)
+- Python 3.10 (Core development)
 
 Frameworks & Tools:
-YOLOv8 (Ultralytics) – Object detection model
-Streamlit – GUI frontend
-OpenCV – Image & video processing
-PyTorch – Deep learning backend
-TTS – Text-to-Speech engine
+- YOLOv8 (Ultralytics) – Object detection model
+- Streamlit – GUI frontend
+- OpenCV – Image & video processing
+- PyTorch – Deep learning backend
+- TTS – Text-to-Speech engine
 
