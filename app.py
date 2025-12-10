@@ -445,7 +445,7 @@ def show_settings_page():
         with col1:
             model_path = st.text_input(
                 "Model Path",
-                value="yolov8n.pt",
+                value="best.pt",
                 help="Path to YOLO model weights file"
             )
 
@@ -654,7 +654,7 @@ def show_video_mode():
 
     model_path = st.sidebar.text_input(
         "Model Path",
-        value="yolov8n.pt"
+        value="best.pt"
     )
 
     if st.sidebar.button("🔄 Load/Reload Model"):
@@ -831,7 +831,7 @@ def show_image_mode():
     # Model path
     model_path = st.sidebar.text_input(
         "Model Path",
-        value="yolov8n.pt",
+        value="best.pt",
         help="Path to YOLO model weights"
     )
 
